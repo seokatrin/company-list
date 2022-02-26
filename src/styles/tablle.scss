@@ -1,0 +1,39 @@
+table,
+th,
+td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  min-width: 100%;
+}
+td {
+  padding: 10px;
+  text-align: center;
+}
+thead {
+  color: #59558a;
+  font-weight: 500;
+}
+.td-edit {
+  display: flex;
+  justify-content: space-between;
+  border: none;
+  :not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  input {
+    width: 75%;
+  }
+}
+.td-address {
+    cursor: pointer;
+    &:hover {
+        .btn-edit {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+    
+}

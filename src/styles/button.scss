@@ -1,0 +1,39 @@
+.butons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.delete-btn {
+  position: absolute;
+  right: 20px;
+}
+.btn {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: rgba(89, 85, 138, 0.5);
+  color: #fff;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: rgba(#16a085, 0.5);
+    color: #fff;
+  }
+}
+.btn-add {
+  margin-bottom: 20px;
+}
+.btn-edit {
+  transition: all ease 0.2s;
+  margin-left: 10px;
+  visibility: hidden;
+  opacity: 0;
+}
+.btn-small,
+.btn-edit {
+  padding: 2px 7px;
+  img {
+    width: 17px;
+  }
+}

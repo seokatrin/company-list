@@ -1,0 +1,65 @@
+@import "./null";
+@import "./button";
+@import "./tablle";
+
+body {
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+}
+
+.app-wrapper {
+  width: 100%;
+  padding: 20px;
+}
+
+.lebel {
+  display: block;
+  color: #59558a;
+  font-size: 16px;
+}
+
+.input {
+  width: 100%;
+  border-bottom: 1px solid #59558a;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+  &:focus {
+    border-bottom: 2px solid #16a085;
+  }
+}
+
+.input-edit {
+  border-bottom: 1px solid rgb(89, 85, 138);
+  font-size: 16px;
+  &:focus {
+    border-bottom: 1px solid #16a085;
+  }
+}
+
+.modal-wrapper {
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba($color: #1d1c1c, $alpha: 0.6);
+}
+
+.modal {
+  margin-top: 100px;
+  background: #fff;
+  width: 500px;
+  height: 450px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.error {
+  color: red;
+}
