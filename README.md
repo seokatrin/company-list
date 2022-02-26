@@ -1,8 +1,6 @@
 # company-list
 
-```
 ссылка https://seokatrin.github.io/company-list/
-```
 
 ```
 Внешний вид и верстка - на усмотрение.
