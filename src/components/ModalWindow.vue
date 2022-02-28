@@ -77,7 +77,6 @@ export default {
         this.message = "";
         const url = "https://suggestions.dadata.ru/suggestions/api/4_1/rs/findById/party";
         const token = "775cf923996c9d3acc8bce7766d73bbdeba73b24";
-        // var query = "7707083893";
 
         const options = {
           method: "POST",
